@@ -12,6 +12,6 @@ export const showCard = (card) => {
     document.body.appendChild(dialog);
     dialog.showModal();
     setTimeout(() => {
-        dialog.close();
+        dialog.remove()
     }, 2000);
 }
